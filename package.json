@@ -1,6 +1,6 @@
 {
   "name": "react-native-adaptive-sizes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Responsive scaling utility and hooks for React Native — scale sizes, fonts, and layout across all screen sizes.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
