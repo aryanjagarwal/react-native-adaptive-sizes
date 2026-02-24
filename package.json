@@ -1,7 +1,7 @@
 {
   "name": "react-native-adaptive-sizes",
   "version": "1.0.0",
-  "description": "Responsive scaling utility for width, height, and font size without React Native or any dependencies.",
+  "description": "Responsive scaling utility and hooks for React Native — scale sizes, fonts, and layout across all screen sizes.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -13,12 +13,20 @@
     "font-scale",
     "utility",
     "typescript",
-    "zero-dependency",
-    "react-native-alternative"
+    "react-native",
+    "hooks",
+    "useResponsive",
+    "adaptive"
   ],
   "author": "aryanjagarwal",
   "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0"
+  },
   "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-native": "^0.72.0",
     "typescript": "^5.3.3"
   }
 }
